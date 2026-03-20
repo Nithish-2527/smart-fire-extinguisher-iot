@@ -27,12 +27,9 @@ The system uses ESP32 with LoRa communication to detect fire hazards and automat
 This project was presented at VISAI 2026 and secured **2nd Prize in the Patent Category**.
 
 ## Images
-transmitter.jpg
-receiver.jpg
-## Images
 
-![transmitter](transmitter.jpg)
-![receiver](receiver.jpg)
+![Transmitter Module](transmitter.jpg)
+![Receiver Module](receiver.jpg)
 
 ## Future Improvements
 - Mobile app integration
