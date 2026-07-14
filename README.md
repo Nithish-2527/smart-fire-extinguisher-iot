@@ -28,8 +28,8 @@ This project was presented at VISAI 2026 and secured **2nd Prize in the Patent C
 
 ## Images
 
-![Transmitter Module](Transmitter_FireSystem/transmitter.jpg)
-![Receiver Module](Receiver_FireSystem/receiver.jpg)
+![Transmitter Module](transiver.png)
+![Receiver Module](receiver.jpg)
 ## Future Improvements
 - Mobile app integration
 - Cloud monitoring
