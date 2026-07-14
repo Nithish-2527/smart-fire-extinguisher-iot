@@ -1,35 +1,31 @@
 # Smart Fire Detection and Suppression System (IoT)
 
-This project is an IoT-based fire detection and suppression system designed for real-time monitoring and response.
+A fire safety system based on the IoT platform to detect, monitor and extinguish fire by ESP32 and LoRa communication technology in real-time.
 
-## Overview
-The system uses ESP32 with LoRa communication to detect fire hazards and automatically trigger a response.
+## Introduction
+This system is made up of the transmitter and receiver nodes, communicating with each other through LoRa RA-02 modules for wireless communication. Transmitter node senses the environment continuously and triggers emergency actions when any hazardous situation arises.
 
 ## Features
-- Detects fire using flame, gas, and temperature sensors
-- Automatic response using servo mechanism
-- Long-range communication using LoRa
+- Real-time monitoring of flame, gases, temperature, and humidity.
+- Activation of fire extinguisher automatically with the help of servo motor.
+- Long-range wireless communication through LoRa technology.
+- Authorized access through RFID
+- Alert generation locally with buzzer and OLED screen.
+- Monitoring remotely through the display of receiver node.
 
 ## Components Used
-- ESP32
-- LoRa module
-- Flame sensor
-- Gas sensor
-- Temperature sensor
-- Servo motor
+ESP32, LoRa RA-02, IR Flame Sensor, MQ-135 Gas Sensor, DHT22 Sensor, RFID RC522, Servo Motor, OLED Display and Buzzer.
 
-## My Role
-- Led the project development
-- Designed system architecture
-- Worked on sensor integration and communication
+## Project Images
+- transmitter_node.png
+- receiver_node.jpg
+- circuit_diagram.jpeg
+
+## My Contribution
+- Developed the architecture of the entire system.
+- Developed the communication protocol between transmitter and receiver node.
+- Integration of sensors, LoRa communication, RFID, and actuators.
+- Testing and debugging of the system.
 
 ## Achievement
-This project was presented at VISAI 2026 and secured **2nd Prize in the Patent Category**.
-
-## Images
-
-![Transmitter Module](transiver.png)
-![Receiver Module](receiver.jpg)
-## Future Improvements
-- Mobile app integration
-- Cloud monitoring
+Participated in VISAI 2026 and won **2nd Prize in Patent Category**.
