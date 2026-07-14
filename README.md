@@ -1,31 +1,34 @@
-# Smart Fire Detection and Suppression System (IoT)
+# Smart Fire Detection & Suppression System (IoT)
 
-A fire safety system based on the IoT platform to detect, monitor and extinguish fire by ESP32 and LoRa communication technology in real-time.
+Fire Safety IoT system designed with ESP32 and LoRa to detect, monitor and automatically suppress fires in real time.
 
-## Introduction
-This system is made up of the transmitter and receiver nodes, communicating with each other through LoRa RA-02 modules for wireless communication. Transmitter node senses the environment continuously and triggers emergency actions when any hazardous situation arises.
+## Description
+LoRa RA-02 modules enable communication between the transmitter and receiver nodes for long range wireless communication and the transmitter detects emergencies in the surroundings.
 
 ## Features
-- Real-time monitoring of flame, gases, temperature, and humidity.
-- Activation of fire extinguisher automatically with the help of servo motor.
-- Long-range wireless communication through LoRa technology.
-- Authorized access through RFID
-- Alert generation locally with buzzer and OLED screen.
-- Monitoring remotely through the display of receiver node.
+- Monitoring of flames, gases, temperature, humidity in real time.
+- Automatic activation of fire extinguisher by servo motor.
+- Long Range LoRa communication.
+- Access control system with the help of RFID.
+- Alerts on the site using buzzer and OLED screen.
+- Remote monitoring with the help of receiver node.
 
 ## Components Used
-ESP32, LoRa RA-02, IR Flame Sensor, MQ-135 Gas Sensor, DHT22 Sensor, RFID RC522, Servo Motor, OLED Display and Buzzer.
+ESP32, LoRa RA-02, IR Flame Sensor, MQ-135, DHT22, RFID RC522, Servo Motor, OLED Screen, Buzzer, and Li-Ion Power Source.
 
 ## Project Images
-- transmitter_node.png
-- receiver_node.jpg
-- circuit_diagram.jpeg
 
-## My Contribution
-- Developed the architecture of the entire system.
-- Developed the communication protocol between transmitter and receiver node.
-- Integration of sensors, LoRa communication, RFID, and actuators.
-- Testing and debugging of the system.
+### Transmitter Node
+![Transmitter Node](transmitter_node.png)
 
-## Achievement
-Participated in VISAI 2026 and won **2nd Prize in Patent Category**.
+### Receiver Node
+![Receiver Node](receiver_node.png)
+
+### Circuit Diagram
+![Circuit Diagram](circuit_diagram.jpeg)
+
+## Contributions
+Designing of architecture, implementation of LoRa communication, integration of sensors and actuators and testing and validation.
+
+## Accomplishments
+Presented at VISAI 2026 and won the **2nd Prize in Patent Category**.
